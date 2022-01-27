@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('眠い、眠い、ひたすらに眠い。');
+  res.send('眠い、眠い、ひたすらに眠いです。');
 });
 
 app.listen(port, () => {
